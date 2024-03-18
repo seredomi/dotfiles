@@ -6,7 +6,7 @@ export MOZ_USE_XINPUT2=1
 # aliases for exa
 alias ls='exa -l'
 alias la='exa -la'
-alias tree='exa -T'
+alias tree='exa -laT'
 
 alias cd='z'
 alias zz='z -'
