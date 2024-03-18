@@ -1,0 +1,9 @@
+[user]
+	email = serenomdominguez@gmail.com
+	name = Sereno Dominguez
+[credential "https://github.com"]
+	helper = 
+	helper = !/nix/store/ykl1a2jcadik3370ll0vm4b5dxmw3hjl-gh-2.20.2/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/nix/store/ykl1a2jcadik3370ll0vm4b5dxmw3hjl-gh-2.20.2/bin/gh auth git-credential

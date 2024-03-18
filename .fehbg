@@ -1,0 +1,2 @@
+#!/bin/sh
+/nix/store/30fjkmkpvmfcn1xn1nsqc3msxcmpxxar-feh-3.9/bin/feh --no-fehbg --bg-scale '/home/ser/media/image/walls/sonar.JPEG' 

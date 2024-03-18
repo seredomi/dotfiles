@@ -1,0 +1,95 @@
+Config { 
+
+   -- appearance
+      font     = "xft:geist-mono-13"
+    , bgColor  = "#f5f5f5"
+    , fgColor  = "#37474f"
+    , position = TopH 27
+
+   -- layout
+   , sepChar =  "%"   -- delineator between plugin names and straight text
+   , alignSep = "}{"  -- separator between left-right alignment
+   , template = " %XMonadLog% • %date% }{ %dynnetwork%%memory% • Cpu %multicpu% %coretemp% • %disku% • %alsa:default:Master% • %battery% "
+
+   -- general behavior
+   , lowerOnStart =     True    -- send to bottom of window stack on start
+   , hideOnStart =      False   -- start with window unmapped (hidden)
+   , allDesktops =      True    -- show on all desktops
+   , overrideRedirect = True    -- set the Override Redirect flag (Xlib)
+   , pickBroadest =     False   -- choose widest display (multi-monitor)
+   , persistent =       True    -- enable/disable hiding (True = disabled)
+
+   , commands = 
+
+        -- weather monitor
+        [  Run Alsa "default" "Master"
+	    [ "--template", "Vol <fc=#bbbbbb><volumestatus></fc>"
+	    , "--"
+	    , "--on", ""
+	    ]
+	
+	-- disk space
+	, Run DiskU [("/", "Sto <free>")]
+	    ["--Low", "20", "--High", "50", "--low", "red", "--normal", "#bbbbbb", "--high", "#bbbbbb"] 20
+
+        -- network activity monitor (dynamic interface resolution)
+        , Run DynNetwork     [ "--template" , "Net <tx> <rx> • "
+                             , "--Low"      , "1000"       -- units: B/s
+                             , "--High"     , "5000"       -- units: B/s
+                             , "--low"      , "#bbbbbb"
+                             , "--normal"   , "#bbbbbb"
+                             , "--high"     , "#bbbbbb"
+                             ] 10
+
+        -- cpu activity monitor
+        , Run MultiCpu       [ "--template" , "<fc=#bbbbbb>[</fc><total0> <total1> <total2> <total3> <total4> <total5> <total6> <total7><fc=#bbbbbb>]</fc>"
+                             , "--Low"      , "50"         -- units: %
+                             , "--High"     , "85"         -- units: %
+                             , "--low"      , "#bbbbbb"
+                             , "--normal"   , "#bbbbbb"
+                             , "--high"     , "red"
+                             ] 10
+
+        -- cpu core temperature monitor
+        , Run CoreTemp       [ "--template" , "<fc=#bbbbbb>[</fc><core0> <core1> <core2> <core3> <core4><fc=#bbbbbb>]</fc>"
+                             , "--Low"      , "79"        -- units: °C
+                             , "--High"     , "80"        -- units: °C
+                             , "--low"      , "#bbbbbb"
+                             , "--normal"   , "#bbbbbb"
+                             , "--high"     , "red"
+                             ] 50
+                          
+        -- memory usage monitor
+        , Run Memory         [ "--template" ,"Mem <usedratio>"
+                             , "--Low"      , "20"        -- units: %
+                             , "--High"     , "90"        -- units: %
+                             , "--low"      , "#bbbbbb"
+                             , "--normal"   , "#bbbbbb"
+                             , "--high"     , "red"
+                             ] 10
+
+        -- battery monitor
+        , Run Battery        [ "--template" , "Bat <acstatus>"
+                             , "--Low"      , "20"        -- units: %
+                             , "--High"     , "80"        -- units: %
+                             , "--low"      , "red"
+                             , "--normal"   , "#bbbbbb"
+                             , "--high"     , "red"
+
+                             , "--" -- battery specific options
+                                       -- discharging status
+                                       , "-o"	, "<left>"
+                                       -- AC "on" status
+                                       , "-O"	, "<left>+"
+                                       -- charged status
+                                       , "-f"	, "<left>+"
+                             ] 10
+
+        -- time and date indicator 
+        --   (%F = y-m-d date, %a = day of week, %T = h:m:s time)
+        , Run Date           "%a %b %d • %H:%M<fc=#bbbbbb>:%S</fc>" "date" 10
+
+	, Run XMonadLog
+
+        ]
+   }
