@@ -13,6 +13,7 @@ import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.ManageHelpers
 import XMonad.Hooks.StatusBar
 import XMonad.Hooks.StatusBar.PP
+import XMonad.Hooks.InsertPosition
 import XMonad.Util.Loggers
 
 
@@ -59,16 +60,16 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm, xK_f ), spawn "firefox")
 
     -- toggle mute
-    , ((modm, xK_F6 ), toggleMute	>> return ())
+    -- , ((modm, xK_F10 ), toggleMute	>> return ())
     -- lower volume
-    , ((modm, xK_F7 ), lowerVolume 5	>> return ())
+    , ((modm, xK_F11 ), lowerVolume 5	>> return ())
     -- raise volume
-    , ((modm, xK_F8 ), raiseVolume 5	>> return ())
+    , ((modm, xK_F12 ), raiseVolume 5	>> return ())
 
     -- lower brighness
-    , ((modm, xK_F2 ), spawn "brightnessctl set 20-")
+    , ((modm, xK_F1 ), spawn "brightnessctl set 20-")
     -- raise brighness
-    , ((modm, xK_F3 ), spawn "brightnessctl set +20")
+    , ((modm, xK_F2 ), spawn "brightnessctl set +20")
 
     -- close focused window
     , ((modm, xK_q     ), kill)
@@ -214,7 +215,8 @@ myManageHook = composeAll
     [ className =? "MPlayer"        --> doFloat
     , className =? "Gimp"           --> doFloat
     , resource  =? "desktop_window" --> doIgnore
-    , resource  =? "kdesktop"       --> doIgnore ]
+    , resource  =? "kdesktop"       --> doIgnore
+    , insertPosition End Newer]
 
 ------------------------------------------------------------------------
 -- Event handling
