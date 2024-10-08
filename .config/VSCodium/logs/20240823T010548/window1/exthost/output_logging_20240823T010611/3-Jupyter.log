@@ -1,0 +1,137 @@
+VSCodium (1.91.1, undefined, desktop)
+Jupyter Extension Version: 2024.6.0.
+Python Extension Version: 2024.12.3.
+Pylance Extension not installed.
+Platform: linux (arm64).
+Workspace folder ~/school/cs345/exercises, Home = /home/ser
+01:08:13.052 [info] Telemetry level is off
+01:08:13.052 [info] Experiments are disabled, only manually opted experiments are active.
+01:08:29.996 [info] Starting Kernel (Python Path: /etc/profiles/per-u~/~/bin/python3.11, Unknown, 3.11.9) for '~/school/cs345/exercises/exercise_01_python_csv_files.ipynb' (disableUI=false)
+01:08:30.099 [warn] Failed to get activated env vars for /etc/profiles/per-u~/~/bin/python3.11 in 115ms
+01:08:30.105 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -c "import site;print("U~_BASE_VALUE");print(site.U~_BASE);print("U~_BASE_VALUE");"
+01:08:30.105 [warn] Failed to get activated env vars for /etc/profiles/per-u~/~/bin/python3.11 in 24ms
+01:08:30.126 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -m pip list
+01:08:30.128 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+01:08:30.130 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-32858Sh359l9eHPxA.json
+    > cwd: //home/~/school/cs345/exercises
+01:08:30.570 [info] Kernel successfully started
+01:08:30.573 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/pythonFiles/printJupyterDataDir.py
+01:08:30.587 [error] Failed to get baseUrl [Error: EINVAL: invalid argument, readlink '/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/temp/scripts/8fb9a892a3353fca77ba18239bbfa63ab319fefe8d7704bdb9fc16210797a864/jupyter/nbextensions'] {
+  errno: -22,
+  code: 'EINVAL',
+  syscall: 'readlink',
+  path: '/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/temp/scripts/8fb9a892a3353fca77ba18239bbfa63ab319fefe8d7704bdb9fc16210797a864/jupyter/nbextensions'
+}
+01:11:59.956 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+01:13:59.256 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+01:23:29.407 [info] Starting debugging with mode 0
+01:23:30.295 [info] Ending debug session e31d6ffa-398a-43ae-8517-53940c8ed97f
+01:23:31.701 [info] Starting debugging with mode 0
+01:23:32.251 [info] Ending debug session f012d374-4d9d-4fe5-9666-2328ef12457f
+01:23:32.771 [info] Ending debug session e31d6ffa-398a-43ae-8517-53940c8ed97f
+01:23:32.771 [info] Ending debug session e31d6ffa-398a-43ae-8517-53940c8ed97f
+01:23:33.396 [info] Starting debugging with mode 0
+01:23:35.449 [info] Ending debug session f012d374-4d9d-4fe5-9666-2328ef12457f
+01:23:35.449 [info] Ending debug session f012d374-4d9d-4fe5-9666-2328ef12457f
+01:47:16.639 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+01:55:51.141 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+01:56:31.731 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+01:56:47.196 [warn] Cell completed with errors [Qd [Error]: invalid syntax (2499796085.py, line 1)
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'SyntaxError',
+  evalue: 'invalid syntax (2499796085.py, line 1)',
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[38], line 1\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    list = [x for x in 1:30 if x % 3 == 0]\x1B[0m\n' +
+      '\x1B[0m                        ^\x1B[0m\n' +
+      '\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m invalid syntax\n'
+  ]
+}
+01:56:55.880 [warn] Cell completed with errors [Qd [Error]: invalid syntax (569826578.py, line 1)
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'SyntaxError',
+  evalue: 'invalid syntax (569826578.py, line 1)',
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[39], line 1\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    list = [x for x in 1 to 30 if x % 3 == 0]\x1B[0m\n' +
+      '\x1B[0m                         ^\x1B[0m\n' +
+      '\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m invalid syntax\n'
+  ]
+}
+01:57:47.730 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+01:58:23.129 [warn] Cell completed with errors [Qd [Error]: expected 'else' after 'if' expression (4128497724.py, line 2)
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'SyntaxError',
+  evalue: "expected 'else' after 'if' expression (4128497724.py, line 2)",
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[44], line 2\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    [x in vals if x % 2 == 0]\x1B[0m\n' +
+      '\x1B[0m     ^\x1B[0m\n' +
+      "\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m expected 'else' after 'if' expression\n"
+  ]
+}
+02:00:03.153 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+02:00:08.306 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+02:00:11.556 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+02:00:16.769 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+02:00:16.896 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+02:05:49.922 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+02:11:03.646 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+02:11:47.696 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+02:18:29.246 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+02:18:33.613 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+02:19:02.099 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+02:19:44.048 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+02:19:44.088 [info] Too many pending requests 1 for kernel 49c52fe7-cc89-4073-a6de-d9402c9107e1, waiting for it to be ready.
+02:19:57.173 [warn] Cell completed with errors [Qd [Error]: invalid syntax (2730340626.py, line 11)
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'SyntaxError',
+  evalue: 'invalid syntax (2730340626.py, line 11)',
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[54], line 11\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    for (col_i in range(len(matrix[0]))):\x1B[0m\n' +
+      '\x1B[0m                                        ^\x1B[0m\n' +
+      '\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m invalid syntax\n'
+  ]
+}
+02:21:08.811 [warn] Cell completed with errors [Qd [Error]: invalid syntax (2730340626.py, line 11)
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'SyntaxError',
+  evalue: 'invalid syntax (2730340626.py, line 11)',
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[55], line 11\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    for (col_i in range(len(matrix[0]))):\x1B[0m\n' +
+      '\x1B[0m                                        ^\x1B[0m\n' +
+      '\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m invalid syntax\n'
+  ]
+}
+02:22:15.011 [warn] Cell completed with errors [Qd [Error]: invalid syntax (2500628724.py, line 12)
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'SyntaxError',
+  evalue: 'invalid syntax (2500628724.py, line 12)',
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[56], line 12\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    for (col_i in range(num_cols)):\x1B[0m\n' +
+      '\x1B[0m                                  ^\x1B[0m\n' +
+      '\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m invalid syntax\n'
+  ]
+}
+02:22:41.040 [warn] Cell completed with errors [Qd [Error]: invalid syntax (2737359413.py, line 13)
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'SyntaxError',
+  evalue: 'invalid syntax (2737359413.py, line 13)',
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[57], line 13\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    for (row in matrix):\x1B[0m\n' +
+      '\x1B[0m                       ^\x1B[0m\n' +
+      '\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m invalid syntax\n'
+  ]
+}
+02:29:20.188 [info] Dispose Kernel '~/school/cs345/exercises/exercise_01_python_csv_files.ipynb' associated with '~/school/cs345/exercises/exercise_01_python_csv_files.ipynb'
+02:29:20.225 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v2-32858Sh359l9eHPxA.json for pid 33246 [Canceled (FileSystemError): Canceled
+	at C._handleError (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:8770)
+	at Object.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:4881)
+	at async Wc.delete (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:239:15722)
+	at async /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:303:469] {
+  code: 'Unknown'
+}

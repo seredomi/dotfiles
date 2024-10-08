@@ -1,0 +1,75 @@
+VSCodium (1.91.1, undefined, desktop)
+Jupyter Extension Version: 2024.6.0.
+Python Extension Version: 2024.12.3.
+Pylance Extension not installed.
+Platform: linux (arm64).
+Workspace folder ~/school/cs345/exercises, Home = /home/ser
+10:08:12.219 [info] Telemetry level is off
+10:08:12.219 [info] Experiments are disabled, only manually opted experiments are active.
+10:08:12.488 [info] Starting Kernel (Python Path: /etc/profiles/per-u~/~/bin/python3.11, Unknown, 3.11.9) for '~/school/cs345/exercises/exercise_02_numpy.ipynb' (disableUI=true)
+10:08:12.817 [warn] Failed to get activated env vars for /etc/profiles/per-u~/~/bin/python3.11 in 326ms
+10:08:12.821 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -c "import site;print("U~_BASE_VALUE");print(site.U~_BASE);print("U~_BASE_VALUE");"
+10:08:12.822 [warn] Failed to get activated env vars for /etc/profiles/per-u~/~/bin/python3.11 in 327ms
+10:08:12.845 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -m pip list
+10:08:12.847 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+10:08:12.850 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-28936jcGQ4702HKne.json
+    > cwd: //home/~/school/cs345/exercises
+10:08:13.301 [info] Kernel successfully started
+10:08:13.310 [warn] Failed to get activated env vars for /etc/profiles/per-u~/~/bin/python3.11 in 7ms
+10:08:13.316 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/pythonFiles/printJupyterDataDir.py
+10:08:13.329 [error] Failed to get baseUrl [Error: EINVAL: invalid argument, readlink '/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/temp/scripts/8fb9a892a3353fca77ba18239bbfa63ab319fefe8d7704bdb9fc16210797a864/jupyter/nbextensions'] {
+  errno: -22,
+  code: 'EINVAL',
+  syscall: 'readlink',
+  path: '/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/temp/scripts/8fb9a892a3353fca77ba18239bbfa63ab319fefe8d7704bdb9fc16210797a864/jupyter/nbextensions'
+}
+10:13:20.828 [info] Starting Kernel (Python Path: /etc/profiles/per-u~/~/bin/python3.11, Unknown, 3.11.9) for '~/school/cs345/exercises/exercise_03_labeled_data.ipynb' (disableUI=false)
+10:13:20.849 [warn] Failed to get activated env vars for /etc/profiles/per-u~/~/bin/python3.11 in 19ms
+10:13:20.855 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+10:13:20.862 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-28936pe8fEqssXsXF.json
+    > cwd: //home/~/school/cs345/exercises
+10:13:20.864 [warn] Failed to get activated env vars for /etc/profiles/per-u~/~/bin/python3.11 in 23ms
+10:13:20.866 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -m pip list
+10:13:21.085 [info] Kernel successfully started
+10:13:21.092 [error] Failed to get baseUrl [Error: EINVAL: invalid argument, readlink '/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/temp/scripts/8fb9a892a3353fca77ba18239bbfa63ab319fefe8d7704bdb9fc16210797a864/jupyter/nbextensions'] {
+  errno: -22,
+  code: 'EINVAL',
+  syscall: 'readlink',
+  path: '/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/temp/scripts/8fb9a892a3353fca77ba18239bbfa63ab319fefe8d7704bdb9fc16210797a864/jupyter/nbextensions'
+}
+10:13:21.162 [warn] Cell completed with errors [Qd [Error]: name 'make_classification' is not defined
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:297:4958)] {
+  ename: 'NameError',
+  evalue: "name 'make_classification' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[1], line 15\x1B[0m\n' +
+      '\x1B[1;32m     12\x1B[0m random_state\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m1\x1B[39m\n' +
+      '\x1B[1;32m     13\x1B[0m \x1B[38;5;66;03m# call make_classification with these parameters\x1B[39;00m\n' +
+      '\x1B[0;32m---> 15\x1B[0m X,y \x1B[38;5;241m=\x1B[39m \x1B[43mmake_classification\x1B[49m(n_samples\x1B[38;5;241m=\x1B[39mn_samples, n_features\x1B[38;5;241m=\x1B[39mn_features,\n' +
+      '\x1B[1;32m     16\x1B[0m                           n_informative\x1B[38;5;241m=\x1B[39mn_informative,n_redundant\x1B[38;5;241m=\x1B[39mn_redundant,\n' +
+      '\x1B[1;32m     17\x1B[0m                           n_repeated\x1B[38;5;241m=\x1B[39mn_repeated, n_classes\x1B[38;5;241m=\x1B[39mn_classes,\n' +
+      '\x1B[1;32m     18\x1B[0m                           n_clusters_per_class\x1B[38;5;241m=\x1B[39mn_clusters_per_class,\n' +
+      '\x1B[1;32m     19\x1B[0m                           class_sep\x1B[38;5;241m=\x1B[39mclass_sep, flip_y\x1B[38;5;241m=\x1B[39mflip_y, shuffle\x1B[38;5;241m=\x1B[39mshuffle,\n' +
+      '\x1B[1;32m     20\x1B[0m                           random_state\x1B[38;5;241m=\x1B[39mrandom_state)\n' +
+      "\x1B[1;32m     22\x1B[0m plt\x1B[38;5;241m.\x1B[39mscatter(X[:,\x1B[38;5;241m0\x1B[39m], X[:,\x1B[38;5;241m1\x1B[39m], c\x1B[38;5;241m=\x1B[39my, alpha\x1B[38;5;241m=\x1B[39m\x1B[38;5;241m0.7\x1B[39m, cmap\x1B[38;5;241m=\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mcoolwarm\x1B[39m\x1B[38;5;124m'\x1B[39m);\n",
+    "\x1B[0;31mNameError\x1B[0m: name 'make_classification' is not defined"
+  ]
+}
+10:44:14.406 [info] Dispose Kernel '~/school/cs345/exercises/exercise_02_numpy.ipynb' associated with '~/school/cs345/exercises/exercise_02_numpy.ipynb'
+10:44:14.413 [info] Dispose Kernel '~/school/cs345/exercises/exercise_03_labeled_data.ipynb' associated with '~/school/cs345/exercises/exercise_03_labeled_data.ipynb'
+10:44:14.444 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v2-28936pe8fEqssXsXF.json for pid 31707 [Canceled (FileSystemError): Canceled
+	at C._handleError (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:8770)
+	at Object.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:4881)
+	at async Wc.delete (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:239:15722)
+	at async /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:303:469] {
+  code: 'Unknown'
+}
+10:44:14.446 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v2-28936jcGQ4702HKne.json for pid 29075 [Canceled (FileSystemError): Canceled
+	at C._handleError (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:8770)
+	at Object.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:4881)
+	at async Wc.delete (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:239:15722)
+	at async /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/dist/extension.node.js:303:469] {
+  code: 'Unknown'
+}

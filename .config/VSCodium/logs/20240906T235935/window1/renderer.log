@@ -1,0 +1,44 @@
+2024-09-06 23:59:36.423 [info] Started local extension host with pid 5567.
+2024-09-06 23:59:36.647 [error] TreeError [SettingsTree] Tree element not found: [object Object]: Error: TreeError [SettingsTree] Tree element not found: [object Object]
+    at ai.getElementLocation (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:99:22172)
+    at ai.rerender (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:99:20140)
+    at gi.rerender (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:630:7962)
+    at ve.refreshSingleElement (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2330:96539)
+    at ve.renderTree (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2330:96302)
+    at vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2330:95288
+    at Set.forEach (<anonymous>)
+    at ve.updateElementsByKey (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2330:95271)
+    at u.value (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2330:69699)
+    at o._deliver (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:93:910)
+    at o.fire (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:93:1229)
+    at z.updateRestrictedSettings (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2314:41447)
+    at z.onDefaultConfigurationChanged (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2314:37470)
+    at u.value (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2314:22758)
+    at o._deliver (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:93:910)
+    at o.fire (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:93:1229)
+    at h.onDidUpdateConfiguration (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:689:3165)
+    at h.onDidUpdateConfiguration (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1468:10002)
+    at u.value (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:689:2861)
+    at o._deliver (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:93:910)
+    at o._deliverQueue (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:93:1001)
+    at o.fire (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:93:1336)
+    at f.deltaConfiguration (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:665:14721)
+    at c._handler (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1890:14921)
+    at c._handle (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1890:1938)
+    at c.acceptUsers (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1890:1842)
+    at H._handleExtensionPoint (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3240:8034)
+    at Z._doHandleExtensionPoints (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3240:6703)
+    at Z._processExtensions (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3239:34181)
+    at Z._initialize (vscode-file://vscode-app/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3239:32665)
+2024-09-06 23:59:39.526 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: issueReporter.experimental.auxWindow
+2024-09-06 23:59:41.083 [info] [perf] Render performance baseline is 15ms
+2024-09-06 23:59:41.333 [error] spawn /home/ser/.vscode-oss/extensions/ms-python.python-2024.14.0-universal/python-env-tools/bin/pet ENOENT: Error: spawn /home/ser/.vscode-oss/extensions/ms-python.python-2024.14.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-09-06 23:59:41.951 [error] [Extension Host] error 23:59:41.950: Jupyter Extension: Failed to get baseUrl [Error: EINVAL: invalid argument, readlink '/home/ser/.vscode-oss/extensions/ms-toolsai.jupyter-2024.7.0-universal/temp/scripts/8fb9a892a3353fca77ba18239bbfa63ab319fefe8d7704bdb9fc16210797a864/jupyter/nbextensions'] {
+  errno: -22,
+  code: 'EINVAL',
+  syscall: 'readlink',
+  path: '/home/ser/.vscode-oss/extensions/ms-toolsai.jupyter-2024.7.0-universal/temp/scripts/8fb9a892a3353fca77ba18239bbfa63ab319fefe8d7704bdb9fc16210797a864/jupyter/nbextensions'
+}

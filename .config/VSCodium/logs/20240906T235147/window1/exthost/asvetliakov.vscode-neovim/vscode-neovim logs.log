@@ -1,0 +1,15 @@
+2024-09-06 23:51:49.332 [info] MainController: Nvim info: {
+  logFile: '/home/ser/.local/state/nvim/log',
+  configDir: '/home/ser/.config/nvim',
+  configFile: '/home/ser/dotfiles/.config/nvim/init.lua',
+  nvimVersion: {
+    major: 0,
+    api_prerelease: false,
+    patch: 1,
+    minor: 10,
+    prerelease: false,
+    api_compatible: 0,
+    build: null,
+    api_level: 12
+  }
+}

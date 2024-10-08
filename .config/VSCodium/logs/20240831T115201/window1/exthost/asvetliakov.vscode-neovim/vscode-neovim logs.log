@@ -1,0 +1,25 @@
+2024-08-31 11:52:02.390 [info] MainController: Starting nvim: /run/current-system/sw/bin/nvim -N --embed --cmd source /home/ser/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.8-universal/runtime/vscode-neovim.vim
+2024-08-31 11:52:02.470 [info] MainController: Nvim info: {
+  logFile: '/home/ser/.local/state/nvim/log',
+  configDir: '/home/ser/.config/nvim',
+  configFile: '/home/ser/dotfiles/.config/nvim/init.lua',
+  nvimVersion: {
+    minor: 10,
+    patch: 1,
+    api_compatible: 0,
+    prerelease: false,
+    api_level: 12,
+    build: null,
+    api_prerelease: false,
+    major: 0
+  }
+}
+2024-08-31 12:25:08.876 [info] MessagesManager: 1 change; before #3  16 seconds ago
+2024-08-31 12:45:31.429 [info] MessagesManager: 3 lines yanked
+2024-08-31 12:46:35.388 [info] MessagesManager: 1 change; before #45  2 seconds ago
+2024-08-31 12:48:58.814 [info] MessagesManager: 1 more line; before #2  23 seconds ago
+2024-08-31 13:02:03.192 [info] MessagesManager: /*             
+2024-08-31 13:17:22.140 [info] MessagesManager: 1 change; before #4  9 seconds ago
+2024-08-31 13:34:48.438 [info] MessagesManager: 4 lines >ed 1 time
+2024-08-31 13:35:32.105 [info] MessagesManager: 1 change; before #27  1 second ago
+2024-08-31 13:37:48.634 [info] MessagesManager: 1 change; before #36  63 seconds ago

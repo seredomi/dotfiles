@@ -1,2 +1,2 @@
 #!/bin/sh
-/etc/profiles/per-user/ser/bin/feh --no-fehbg --bg-scale '/home/ser/media/image/walls/mountain.jpg' 
+/etc/profiles/per-user/ser/bin/feh --no-fehbg --bg-scale '/home/ser/media/image/walls/face-to-face.png' 

@@ -1,0 +1,25 @@
+VSCodium (1.92.2, undefined, desktop)
+Jupyter Extension Version: 2024.6.0.
+Python Extension Version: 2024.14.0.
+Pylance Extension not installed.
+Platform: linux (arm64).
+Workspace folder ~/school/cs345/exercises, Home = /home/ser
+23:51:48.934 [info] Telemetry level is off
+23:51:48.935 [info] Experiments are disabled, only manually opted experiments are active.
+23:51:49.466 [info] Starting Kernel (Python Path: /etc/profiles/per-u~/~/bin/python3.11, Unknown, 3.11.9) for '~/school/cs345/exercises/exercise_03_labeled_data.ipynb' (disableUI=true)
+23:51:49.761 [warn] Failed to get activated env vars for /etc/profiles/per-u~/~/bin/python3.11 in 295ms
+23:51:49.765 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -c "import site;print("U~_BASE_VALUE");print(site.U~_BASE);print("U~_BASE_VALUE");"
+23:51:49.780 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -m pip list
+23:51:49.783 [warn] Failed to get activated env vars for /etc/profiles/per-u~/~/bin/python3.11 in 299ms
+23:51:49.785 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+23:51:49.789 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-6048S3VZGldSsqU3.json
+    > cwd: //home/~/school/cs345/exercises
+23:51:50.254 [info] Kernel successfully started
+23:51:50.261 [warn] Failed to get activated env vars for /etc/profiles/per-u~/~/bin/python3.11 in 5ms
+23:51:50.265 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/pythonFiles/printJupyterDataDir.py
+23:51:50.279 [error] Failed to get baseUrl [Error: EINVAL: invalid argument, readlink '/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/temp/scripts/8fb9a892a3353fca77ba18239bbfa63ab319fefe8d7704bdb9fc16210797a864/jupyter/nbextensions'] {
+  errno: -22,
+  code: 'EINVAL',
+  syscall: 'readlink',
+  path: '/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal/temp/scripts/8fb9a892a3353fca77ba18239bbfa63ab319fefe8d7704bdb9fc16210797a864/jupyter/nbextensions'
+}

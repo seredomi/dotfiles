@@ -1,0 +1,9 @@
+Error detected while processing /home/ser/dotfiles/.config/nvim/init.lua:
+E5113: Error while calling lua chunk: /home/ser/dotfiles/.config/nvim/init.lua:1: module 'paq' not found:
+	no field package.preload['paq']
+	no file '/nix/store/ky5zwzvidl6jpdpl6wl3apcnv46cgxiz-luajit-2.1.1713773202-env/share/lua/5.1/paq.lua'
+	no file '/nix/store/ky5zwzvidl6jpdpl6wl3apcnv46cgxiz-luajit-2.1.1713773202-env/share/lua/5.1/paq/init.lua'
+	no file '/nix/store/ky5zwzvidl6jpdpl6wl3apcnv46cgxiz-luajit-2.1.1713773202-env/lib/lua/5.1/paq.so'
+stack traceback:
+	[C]: in function 'require'
+	/home/ser/dotfiles/.config/nvim/init.lua:1: in main chunk

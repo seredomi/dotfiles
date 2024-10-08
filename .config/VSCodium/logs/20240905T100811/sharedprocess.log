@@ -1,0 +1,13 @@
+2024-09-05 10:08:18.392 [info] Getting Manifest... asvetliakov.vscode-neovim
+2024-09-05 10:08:22.863 [info] Installing extension: asvetliakov.vscode-neovim {"productVersion":{"version":"1.91.1","date":"2024-07-11T18:37:25.588Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json","path":"/home/ser/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-05 10:08:27.518 [info] Extracted extension to file:///home/ser/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.9-universal: asvetliakov.vscode-neovim
+2024-09-05 10:08:27.526 [info] Renamed to /home/ser/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.9-universal
+2024-09-05 10:08:27.547 [info] Marked extension as uninstalled asvetliakov.vscode-neovim-1.18.8-universal
+2024-09-05 10:08:27.559 [info] Extension installed successfully: asvetliakov.vscode-neovim vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json
+2024-09-05 10:08:27.617 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp'
+    at u.create (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22080)
+    at d (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22210)
+    at R.toFileSystemProviderError (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:47900)
+    at R.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38403)
+    at async s.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19760)
+    at async z.onDidFilesChange (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:146943)

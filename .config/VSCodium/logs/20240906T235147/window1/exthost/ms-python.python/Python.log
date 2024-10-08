@@ -1,0 +1,36 @@
+2024-09-06 23:51:49.343 [info] Telemetry level is off
+2024-09-06 23:51:49.343 [info] Experiments are disabled, only manually opted experiments are active.
+2024-09-06 23:51:49.344 [warning] Dir "/home/ser/school/cs345/exercises/.pixi/envs" is not watchable (directory does not exist)
+2024-09-06 23:51:49.344 [info] Default formatter is set to null for workspace /home/ser/school/cs345/exercises
+2024-09-06 23:51:49.344 [info] Starting Environment refresh
+2024-09-06 23:51:49.344 [info] Searching for interpreters in posix paths locator
+2024-09-06 23:51:49.344 [info] Searching for pyenv environments
+2024-09-06 23:51:49.344 [info] Searching for conda environments
+2024-09-06 23:51:49.344 [info] Searching for global virtual environments
+2024-09-06 23:51:49.344 [info] Searching for custom virtual environments
+2024-09-06 23:51:49.344 [info] pyenv is not installed
+2024-09-06 23:51:49.344 [info] Finished searching for pyenv environments: 5 milliseconds
+2024-09-06 23:51:49.344 [info] Finished searching for custom virtual envs: 5 milliseconds
+2024-09-06 23:51:49.344 [info] > conda info --json
+2024-09-06 23:51:49.344 [info] > pixi --version
+2024-09-06 23:51:49.344 [info] > hatch env show --json
+2024-09-06 23:51:49.344 [info] cwd: .
+2024-09-06 23:51:49.344 [info] Finished searching for global virtual envs: 18 milliseconds
+2024-09-06 23:51:49.392 [info] Found: /etc/profiles/per-user/ser/bin/python --> /nix/store/1rsla599n8m31a9sqg31dgsx4gn1h62x-python3-3.11.9-env/bin/python
+2024-09-06 23:51:49.399 [info] Found: /etc/profiles/per-user/ser/bin/python3 --> /nix/store/1rsla599n8m31a9sqg31dgsx4gn1h62x-python3-3.11.9-env/bin/python3
+2024-09-06 23:51:49.457 [info] > pyenv which python
+2024-09-06 23:51:49.457 [info] cwd: .
+2024-09-06 23:51:49.457 [info] Found: /etc/profiles/per-user/ser/bin/python3.11 --> /nix/store/1rsla599n8m31a9sqg31dgsx4gn1h62x-python3-3.11.9-env/bin/python3.11
+2024-09-06 23:51:49.464 [info] > /etc/profiles/per-user/ser/bin/python3.11 -I ~/.vscode-oss/extensions/ms-python.python-2024.14.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.14.0-universal/python_files/interpreterInfo.py
+2024-09-06 23:51:49.466 [warning] could not find a pixi interpreter for the interpreter at /etc/profiles/per-user/ser/bin/python3.11
+2024-09-06 23:51:49.484 [warning] could not find a pixi interpreter for the interpreter at /etc/profiles/per-user/ser/bin/python3.11
+2024-09-06 23:51:49.492 [info] Python interpreter path: /etc/profiles/per-user/ser/bin/python3.11
+2024-09-06 23:51:49.498 [info] > /etc/profiles/per-user/ser/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.14.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.14.0-universal/python_files/interpreterInfo.py
+2024-09-06 23:51:49.500 [info] Finished searching for interpreters in posix paths locator: 183 milliseconds
+2024-09-06 23:51:49.500 [info] > /etc/profiles/per-user/ser/bin/python3 -I ~/.vscode-oss/extensions/ms-python.python-2024.14.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.14.0-universal/python_files/interpreterInfo.py
+2024-09-06 23:51:49.501 [info] Environments refresh paths discovered (event): 186 milliseconds
+2024-09-06 23:51:49.501 [info] Environments refresh paths discovered: 186 milliseconds
+2024-09-06 23:51:49.532 [info] Environments refresh finished (event): 217 milliseconds
+2024-09-06 23:51:49.534 [info] Environment refresh took 219 milliseconds
+2024-09-06 23:51:50.137 [info] Starting Jedi language server for exercises.
+2024-09-06 23:51:50.256 [warning] could not find a pixi interpreter for the interpreter at /etc/profiles/per-user/ser/bin/python3.11

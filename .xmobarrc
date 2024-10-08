@@ -1,7 +1,7 @@
 Config { 
 
    -- appearance
-      font     = "xft:geist-mono-18"
+      font     = "xft:iosevka-18"
     , bgColor  = "#f5f5f5"
     , fgColor  = "#37474f"
     , position = TopH 39
@@ -9,7 +9,7 @@ Config {
    -- layout
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = " %XMonadLog% • %date% }{ %dynnetwork%%memory% • Cpu %multicpu% %coretemp% • %disku% • %alsa:default:Master% • %batt-check% "
+   , template = " %XMonadLog% • %date% }{ %dynnetwork%%memory% • Cpu %multicpu% • %disku% • %alsa:default:Master% • %batt-check% "
 
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start
@@ -22,7 +22,7 @@ Config {
    , commands = 
 
         -- weather monitor
-        [  Run Alsa "default" "Master"
+        [ Run Alsa "default" "Master"
 	    [ "--template", "Vol <fc=#bbbbbb><volumestatus></fc>"
 	    , "--"
 	    , "--on", ""
@@ -42,7 +42,7 @@ Config {
                              ] 10
 
         -- cpu activity monitor
-        , Run MultiCpu       [ "--template" , "<fc=#bbbbbb>[</fc><total0> <total1> <total2> <total3> <total4> <total5> <total6> <total7><fc=#bbbbbb>]</fc>"
+        , Run MultiCpu       [ "--template" , "<fc=#bbbbbb></fc><total0> <total1> <total2> <total3> <total4> <total5> <total6> <total7> <total8> <total9> <total10> <total11><fc=#bbbbbb></fc>"
                              , "--Low"      , "50"         -- units: %
                              , "--High"     , "85"         -- units: %
                              , "--low"      , "#bbbbbb"
@@ -51,13 +51,13 @@ Config {
                              ] 10
 
         -- cpu core temperature monitor
-        , Run CoreTemp       [ "--template" , "<fc=#bbbbbb>[</fc><core0> <core1> <core2> <core3> <core4><fc=#bbbbbb>]</fc>"
-                             , "--Low"      , "79"        -- units: °C
-                             , "--High"     , "80"        -- units: °C
-                             , "--low"      , "#bbbbbb"
-                             , "--normal"   , "#bbbbbb"
-                             , "--high"     , "red"
-                             ] 50
+        -- , Run CoreTemp       [ "--template" , "<fc=#bbbbbb>[</fc><core0> <core1> <core2> <core3> <core4><fc=#bbbbbb>]</fc>"
+        --                      , "--Low"      , "79"        -- units: °C
+        --                      , "--High"     , "80"        -- units: °C
+        --                      , "--low"      , "#bbbbbb"
+        --                      , "--normal"   , "#bbbbbb"
+        --                      , "--high"     , "red"
+        --                      ] 50
                           
         -- memory usage monitor
         , Run Memory         [ "--template" ,"Mem <usedratio>"

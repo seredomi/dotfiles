@@ -1,0 +1,60 @@
+2024-08-23 01:08:12.004 [info] Telemetry level is off
+2024-08-23 01:08:12.004 [info] Experiments are disabled, only manually opted experiments are active.
+2024-08-23 01:08:12.004 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/ser/school/cs345/exercises/.pixi/envs'
+	at Object.readdirSync (node:fs:1513:3)
+	at t.readdirSync (node:electron/js2c/node_init:2:11289)
+	at /home/ser/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586747
+	at /home/ser/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/ser/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586656)
+	at async d.ensureWatchersReady (/home/ser/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:543067)] {
+  errno: -2,
+  syscall: 'scandir',
+  code: 'ENOENT',
+  path: '/home/ser/school/cs345/exercises/.pixi/envs'
+}
+2024-08-23 01:08:12.004 [error] Dir "/home/ser/school/cs345/exercises/.pixi/envs" is not watchable (directory does not exist)
+2024-08-23 01:08:12.004 [info] Default formatter is set to null for workspace /home/ser/school/cs345/exercises
+2024-08-23 01:08:12.004 [info] Starting Environment refresh
+2024-08-23 01:08:12.004 [info] Searching for interpreters in posix paths locator
+2024-08-23 01:08:12.004 [info] Searching for pyenv environments
+2024-08-23 01:08:12.004 [info] Searching for conda environments
+2024-08-23 01:08:12.004 [info] Searching for global virtual environments
+2024-08-23 01:08:12.004 [info] Searching for custom virtual environments
+2024-08-23 01:08:12.004 [info] pyenv is not installed
+2024-08-23 01:08:12.004 [info] Finished searching for pyenv environments: 4 milliseconds
+2024-08-23 01:08:12.004 [info] Finished searching for custom virtual envs: 4 milliseconds
+2024-08-23 01:08:12.004 [info] > conda info --json
+2024-08-23 01:08:12.004 [info] > pixi --version
+2024-08-23 01:08:12.004 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-23 01:08:12.004 [info] > hatch env show --json
+2024-08-23 01:08:12.004 [info] cwd: .
+2024-08-23 01:08:12.004 [info] > pyenv which python
+2024-08-23 01:08:12.004 [info] cwd: .
+2024-08-23 01:08:12.004 [info] Finished searching for global virtual envs: 20 milliseconds
+2024-08-23 01:08:12.006 [info] Found: /etc/profiles/per-user/ser/bin/python --> /nix/store/n6f74zh5hdjp9xhhn268rx9r6p55w8by-python3-3.11.9-env/bin/python
+2024-08-23 01:08:12.006 [info] Found: /etc/profiles/per-user/ser/bin/python3 --> /nix/store/n6f74zh5hdjp9xhhn268rx9r6p55w8by-python3-3.11.9-env/bin/python3
+2024-08-23 01:08:12.007 [info] Found: /etc/profiles/per-user/ser/bin/python3.11 --> /nix/store/n6f74zh5hdjp9xhhn268rx9r6p55w8by-python3-3.11.9-env/bin/python3.11
+2024-08-23 01:08:12.015 [info] > /etc/profiles/per-user/ser/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py
+2024-08-23 01:08:12.018 [info] Finished searching for interpreters in posix paths locator: 61 milliseconds
+2024-08-23 01:08:12.018 [info] > /etc/profiles/per-user/ser/bin/python3 -I ~/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py
+2024-08-23 01:08:12.020 [info] Environments refresh paths discovered (event): 64 milliseconds
+2024-08-23 01:08:12.020 [info] Environments refresh paths discovered: 64 milliseconds
+2024-08-23 01:08:12.035 [info] > /etc/profiles/per-user/ser/bin/python3.11 -I ~/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py
+2024-08-23 01:08:12.059 [info] Environments refresh finished (event): 103 milliseconds
+2024-08-23 01:08:12.062 [info] Environment refresh took 106 milliseconds
+2024-08-23 01:08:12.063 [warning] could not find a pixi interpreter for the interpreter at /etc/profiles/per-user/ser/bin/python3.11
+2024-08-23 01:08:12.064 [info] Python interpreter path: /etc/profiles/per-user/ser/bin/python3.11
+2024-08-23 01:08:12.677 [info] Starting Jedi language server for exercises.
+2024-08-23 01:08:29.986 [warning] could not find a pixi interpreter for the interpreter at /etc/profiles/per-user/ser/bin/python3.11
+2024-08-23 01:08:30.082 [warning] could not find a pixi interpreter for the interpreter at /etc/profiles/per-user/ser/bin/python3.11
+2024-08-23 01:08:40.528 [warning] could not find a pixi interpreter for the interpreter at /etc/profiles/per-user/ser/bin/python3.11

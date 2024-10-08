@@ -1,0 +1,7 @@
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"first open"}
+{"signed_in":false,"milliseconds_since_first_event":34,"type":"Setting","setting":"theme","value":"One Dark"}
+{"signed_in":false,"milliseconds_since_first_event":34,"type":"Setting","setting":"keymap","value":"VSCode"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Memory","memory_in_bytes":123207680,"virtual_memory_in_bytes":6499172352}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Cpu","usage_as_percentage":0.020836879,"core_count":12}
+{"signed_in":false,"milliseconds_since_first_event":336326,"type":"Memory","memory_in_bytes":123207680,"virtual_memory_in_bytes":6499172352}
+{"signed_in":false,"milliseconds_since_first_event":336326,"type":"Cpu","usage_as_percentage":0.0,"core_count":12}

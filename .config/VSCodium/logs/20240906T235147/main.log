@@ -1,0 +1,3 @@
+2024-09-06 23:51:47.724 [info] update#setState disabled
+2024-09-06 23:51:47.725 [info] update#ctor - updates are disabled as there is no update URL
+2024-09-06 23:51:48.316 [error] vscode-file: Refused to load resource /nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/extensions/theme-seti/icons/seti.woff)

@@ -1,0 +1,91 @@
+2024-08-23 01:05:51.396 [info] Deleted uninstalled extension from disk xadillax.viml /home/ser/.vscode-oss/extensions/xadillax.viml-2.1.2-universal
+2024-08-23 01:05:55.716 [info] Getting Manifest... asvetliakov.vscode-neovim
+2024-08-23 01:05:56.842 [info] Installing extension: asvetliakov.vscode-neovim {"productVersion":{"version":"1.91.1","date":"2024-07-11T18:37:25.588Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json","path":"/home/ser/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-08-23 01:05:57.613 [info] Extracted extension to file:///home/ser/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.8-universal: asvetliakov.vscode-neovim
+2024-08-23 01:05:57.621 [info] Renamed to /home/ser/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.8-universal
+2024-08-23 01:05:57.637 [info] Marked extension as uninstalled asvetliakov.vscode-neovim-1.18.7-universal
+2024-08-23 01:05:57.642 [info] Extension installed successfully: asvetliakov.vscode-neovim vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json
+2024-08-23 01:05:57.710 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp'
+    at u.create (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22080)
+    at d (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22210)
+    at R.toFileSystemProviderError (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:47900)
+    at R.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38403)
+    at async s.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19760)
+    at async z.onDidFilesChange (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:146943)
+2024-08-23 01:07:57.952 [info] Getting Manifest... ms-python.python
+2024-08-23 01:07:58.179 [info] Installing extension: ms-python.python {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json","path":"/home/ser/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.1","date":"2024-07-11T18:37:25.588Z"}}
+2024-08-23 01:07:58.233 [info] Getting Manifest... ms-toolsai.jupyter
+2024-08-23 01:07:58.339 [info] Getting Manifest... ms-python.debugpy
+2024-08-23 01:07:58.480 [info] Installing extension: ms-toolsai.jupyter {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json","path":"/home/ser/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.1","date":"2024-07-11T18:37:25.588Z"}}
+2024-08-23 01:07:58.610 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2024-08-23 01:07:58.662 [info] Installing extension: ms-python.debugpy {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json","path":"/home/ser/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.1","date":"2024-07-11T18:37:25.588Z"}}
+2024-08-23 01:07:58.832 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2024-08-23 01:07:59.550 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2024-08-23 01:07:59.776 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2024-08-23 01:08:00.154 [info] Installing extension: ms-toolsai.jupyter-renderers {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json","path":"/home/ser/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.1","date":"2024-07-11T18:37:25.588Z"}}
+2024-08-23 01:08:00.155 [info] Installing extension: ms-toolsai.jupyter-keymap {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json","path":"/home/ser/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.1","date":"2024-07-11T18:37:25.588Z"}}
+2024-08-23 01:08:00.155 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json","path":"/home/ser/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.1","date":"2024-07-11T18:37:25.588Z"}}
+2024-08-23 01:08:00.155 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json","path":"/home/ser/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.1","date":"2024-07-11T18:37:25.588Z"}}
+2024-08-23 01:08:00.818 [info] Extracted extension to file:///home/ser/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal: ms-toolsai.jupyter-keymap
+2024-08-23 01:08:00.823 [info] Renamed to /home/ser/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal
+2024-08-23 01:08:00.841 [info] Extracted extension to file:///home/ser/.vscode-oss/extensions/ms-python.debugpy-2024.8.0-linux-arm64: ms-python.debugpy
+2024-08-23 01:08:00.848 [info] Renamed to /home/ser/.vscode-oss/extensions/ms-python.debugpy-2024.8.0-linux-arm64
+2024-08-23 01:08:00.903 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp'
+    at u.create (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22080)
+    at d (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22210)
+    at R.toFileSystemProviderError (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:47900)
+    at R.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38403)
+    at async s.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19760)
+    at async z.onDidFilesChange (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:146943)
+2024-08-23 01:08:01.415 [info] Extracted extension to file:///home/ser/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal: ms-toolsai.vscode-jupyter-slideshow
+2024-08-23 01:08:01.420 [info] Renamed to /home/ser/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal
+2024-08-23 01:08:01.504 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp'
+    at u.create (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22080)
+    at d (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22210)
+    at R.toFileSystemProviderError (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:47900)
+    at R.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38403)
+    at async s.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19760)
+    at async z.onDidFilesChange (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:146943)
+2024-08-23 01:08:01.716 [info] Extracted extension to file:///home/ser/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal: ms-toolsai.vscode-jupyter-cell-tags
+2024-08-23 01:08:01.721 [info] Renamed to /home/ser/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal
+2024-08-23 01:08:01.802 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp'
+    at u.create (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22080)
+    at d (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22210)
+    at R.toFileSystemProviderError (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:47900)
+    at R.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38403)
+    at async s.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19760)
+    at async z.onDidFilesChange (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:146943)
+2024-08-23 01:08:02.450 [info] Extracted extension to file:///home/ser/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.18-universal: ms-toolsai.jupyter-renderers
+2024-08-23 01:08:02.457 [info] Renamed to /home/ser/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.18-universal
+2024-08-23 01:08:02.536 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp'
+    at u.create (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22080)
+    at d (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22210)
+    at R.toFileSystemProviderError (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:47900)
+    at R.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38403)
+    at async s.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19760)
+    at async z.onDidFilesChange (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:146943)
+2024-08-23 01:08:11.658 [info] Extracted extension to file:///home/ser/.vscode-oss/extensions/ms-python.python-2024.12.3-universal: ms-python.python
+2024-08-23 01:08:11.666 [info] Renamed to /home/ser/.vscode-oss/extensions/ms-python.python-2024.12.3-universal
+2024-08-23 01:08:11.685 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json
+2024-08-23 01:08:11.685 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json
+2024-08-23 01:08:11.750 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp'
+    at u.create (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22080)
+    at d (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22210)
+    at R.toFileSystemProviderError (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:47900)
+    at R.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38403)
+    at async s.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19760)
+    at async z.onDidFilesChange (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:146943)
+2024-08-23 01:08:12.722 [info] Extracted extension to file:///home/ser/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal: ms-toolsai.jupyter
+2024-08-23 01:08:12.729 [info] Renamed to /home/ser/.vscode-oss/extensions/ms-toolsai.jupyter-2024.6.0-universal
+2024-08-23 01:08:12.750 [info] Extension installed successfully: ms-toolsai.jupyter-keymap vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json
+2024-08-23 01:08:12.750 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json
+2024-08-23 01:08:12.750 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json
+2024-08-23 01:08:12.751 [info] Extension installed successfully: ms-toolsai.jupyter-renderers vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json
+2024-08-23 01:08:12.751 [info] Extension installed successfully: ms-toolsai.jupyter vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json
+2024-08-23 01:08:12.811 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp'
+    at u.create (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22080)
+    at d (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22210)
+    at R.toFileSystemProviderError (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:47900)
+    at R.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38403)
+    at async s.stat (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19760)
+    at async z.onDidFilesChange (/nix/store/3j0nsr6g8fc0kb20hxhvfnsh83bk0fg6-vscodium-1.91.1.24193/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:146943)

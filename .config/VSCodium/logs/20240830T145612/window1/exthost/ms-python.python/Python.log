@@ -1,0 +1,67 @@
+2024-08-30 14:56:13.687 [info] Telemetry level is off
+2024-08-30 14:56:13.687 [info] Experiments are disabled, only manually opted experiments are active.
+2024-08-30 14:56:13.687 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/ser/school/cs345/exercises/.pixi/envs'
+	at Object.readdirSync (node:fs:1513:3)
+	at t.readdirSync (node:electron/js2c/node_init:2:11289)
+	at /home/ser/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586747
+	at /home/ser/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/ser/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586656)
+	at async d.ensureWatchersReady (/home/ser/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:543067)] {
+  errno: -2,
+  syscall: 'scandir',
+  code: 'ENOENT',
+  path: '/home/ser/school/cs345/exercises/.pixi/envs'
+}
+2024-08-30 14:56:13.687 [error] Dir "/home/ser/school/cs345/exercises/.pixi/envs" is not watchable (directory does not exist)
+2024-08-30 14:56:13.687 [info] Default formatter is set to null for workspace /home/ser/school/cs345/exercises
+2024-08-30 14:56:13.687 [info] > conda info --json
+2024-08-30 14:56:13.690 [info] > pyenv which python
+2024-08-30 14:56:13.690 [info] cwd: .
+2024-08-30 14:56:13.698 [info] > pixi --version
+2024-08-30 14:56:13.698 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-30 14:56:13.698 [warning] could not find a pixi interpreter for the interpreter at /etc/profiles/per-user/ser/bin/python3.11
+2024-08-30 14:56:13.705 [warning] could not find a pixi interpreter for the interpreter at /etc/profiles/per-user/ser/bin/python3.11
+2024-08-30 14:56:13.722 [info] > /etc/profiles/per-user/ser/bin/python3.11 -I ~/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py
+2024-08-30 14:56:13.760 [info] Python interpreter path: /etc/profiles/per-user/ser/bin/python3.11
+2024-08-30 14:56:13.784 [info] Starting Environment refresh
+2024-08-30 14:56:13.784 [info] Searching for interpreters in posix paths locator
+2024-08-30 14:56:13.784 [info] Searching for pyenv environments
+2024-08-30 14:56:13.784 [info] Searching for conda environments
+2024-08-30 14:56:13.784 [info] Searching for global virtual environments
+2024-08-30 14:56:13.784 [info] Searching for custom virtual environments
+2024-08-30 14:56:13.786 [info] > hatch env show --json
+2024-08-30 14:56:13.786 [info] cwd: .
+2024-08-30 14:56:13.786 [info] pyenv is not installed
+2024-08-30 14:56:13.786 [info] Finished searching for pyenv environments: 2 milliseconds
+2024-08-30 14:56:13.786 [info] Finished searching for custom virtual envs: 2 milliseconds
+2024-08-30 14:56:13.788 [info] Finished searching for global virtual envs: 4 milliseconds
+2024-08-30 14:56:13.790 [info] Found: /etc/profiles/per-user/ser/bin/python --> /nix/store/n6f74zh5hdjp9xhhn268rx9r6p55w8by-python3-3.11.9-env/bin/python
+2024-08-30 14:56:13.790 [info] Found: /etc/profiles/per-user/ser/bin/python3 --> /nix/store/n6f74zh5hdjp9xhhn268rx9r6p55w8by-python3-3.11.9-env/bin/python3
+2024-08-30 14:56:13.790 [info] Found: /etc/profiles/per-user/ser/bin/python3.11 --> /nix/store/n6f74zh5hdjp9xhhn268rx9r6p55w8by-python3-3.11.9-env/bin/python3.11
+2024-08-30 14:56:13.796 [info] > /etc/profiles/per-user/ser/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py
+2024-08-30 14:56:13.802 [info] Finished searching for interpreters in posix paths locator: 16 milliseconds
+2024-08-30 14:56:13.802 [info] > /etc/profiles/per-user/ser/bin/python3 -I ~/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py
+2024-08-30 14:56:13.802 [info] Environments refresh paths discovered (event): 18 milliseconds
+2024-08-30 14:56:13.802 [info] Environments refresh paths discovered: 18 milliseconds
+2024-08-30 14:56:13.830 [info] Environments refresh finished (event): 46 milliseconds
+2024-08-30 14:56:13.834 [info] Environment refresh took 50 milliseconds
+2024-08-30 14:56:14.158 [info] Starting Jedi language server for exercises.
+2024-08-30 14:56:14.386 [error] Invalid version for /etc/profiles/per-user/ser/bin/python3.11: {"name":"","location":"","kind":"global-other","executable":{"filename":"/etc/profiles/per-user/ser/bin/python3.11","sysPrefix":"","ctime":1724399021718,"mtime":1000},"display":"Python 3.11.x","version":{"major":3,"minor":11,"micro":-1},"arch":1,"distro":{"org":""},"source":["path env var"],"id":"/etc/profiles/per-user/ser/bin/python3.11","detailedDisplayName":"Python 3.11.x"}
+2024-08-30 15:10:15.210 [error] Invalid version for /etc/profiles/per-user/ser/bin/python3.11: {"name":"","location":"","kind":"global-other","executable":{"filename":"/etc/profiles/per-user/ser/bin/python3.11","sysPrefix":"","ctime":1724399021718,"mtime":1000},"display":"Python 3.11.x","version":{"major":3,"minor":11,"micro":-1},"arch":1,"distro":{"org":""},"source":["path env var"],"id":"/etc/profiles/per-user/ser/bin/python3.11","detailedDisplayName":"Python 3.11.x"}
+2024-08-30 15:10:15.224 [error] Invalid version for /etc/profiles/per-user/ser/bin/python3.11: {"name":"","location":"","kind":"global-other","executable":{"filename":"/etc/profiles/per-user/ser/bin/python3.11","sysPrefix":"","ctime":1724399021718,"mtime":1000},"display":"Python 3.11.x","version":{"major":3,"minor":11,"micro":-1},"arch":1,"distro":{"org":""},"source":["path env var"],"id":"/etc/profiles/per-user/ser/bin/python3.11","detailedDisplayName":"Python 3.11.x"}
+2024-08-30 15:10:15.226 [warning] could not find a pixi interpreter for the interpreter at /etc/profiles/per-user/ser/bin/python3.11
+2024-08-30 15:10:15.239 [error] Invalid version for /etc/profiles/per-user/ser/bin/python3.11: {"name":"","location":"","kind":"global-other","executable":{"filename":"/etc/profiles/per-user/ser/bin/python3.11","sysPrefix":"","ctime":1724399021718,"mtime":1000},"display":"Python 3.11.x","version":{"major":3,"minor":11,"micro":-1},"arch":1,"distro":{"org":""},"source":["path env var"],"id":"/etc/profiles/per-user/ser/bin/python3.11","detailedDisplayName":"Python 3.11.x"}
+2024-08-30 15:10:15.240 [warning] could not find a pixi interpreter for the interpreter at /etc/profiles/per-user/ser/bin/python3.11
+2024-08-30 15:10:15.251 [error] Invalid version for /etc/profiles/per-user/ser/bin/python3.11: {"name":"","location":"","kind":"global-other","executable":{"filename":"/etc/profiles/per-user/ser/bin/python3.11","sysPrefix":"","ctime":1724399021718,"mtime":1000},"display":"Python 3.11.x","version":{"major":3,"minor":11,"micro":-1},"arch":1,"distro":{"org":""},"source":["path env var"],"id":"/etc/profiles/per-user/ser/bin/python3.11","detailedDisplayName":"Python 3.11.x"}
+2024-08-30 15:10:15.251 [error] Invalid version for /etc/profiles/per-user/ser/bin/python3.11: {"name":"","location":"","kind":"global-other","executable":{"filename":"/etc/profiles/per-user/ser/bin/python3.11","sysPrefix":"","ctime":1724399021718,"mtime":1000},"display":"Python 3.11.x","version":{"major":3,"minor":11,"micro":-1},"arch":1,"distro":{"org":""},"source":["path env var"],"id":"/etc/profiles/per-user/ser/bin/python3.11","detailedDisplayName":"Python 3.11.x"}
+2024-08-30 15:10:15.514 [error] Invalid version for /etc/profiles/per-user/ser/bin/python3.11: {"name":"","location":"","kind":"global-other","executable":{"filename":"/etc/profiles/per-user/ser/bin/python3.11","sysPrefix":"","ctime":1724399021718,"mtime":1000},"display":"Python 3.11.x","version":{"major":3,"minor":11,"micro":-1},"arch":1,"distro":{"org":""},"source":["path env var"],"id":"/etc/profiles/per-user/ser/bin/python3.11","detailedDisplayName":"Python 3.11.x"}

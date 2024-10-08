@@ -1,0 +1,23 @@
+2024-09-06 23:51:49.391 [info] Deleted uninstalled extension from disk asvetliakov.vscode-neovim /home/ser/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.9-universal
+2024-09-06 23:51:49.392 [info] Deleted uninstalled extension from disk ms-python.python /home/ser/.vscode-oss/extensions/ms-python.python-2024.12.3-universal
+2024-09-06 23:51:49.392 [info] Deleted uninstalled extension from disk ms-toolsai.jupyter-renderers /home/ser/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.18-universal
+2024-09-06 23:51:53.382 [info] Getting Manifest... ms-python.debugpy
+2024-09-06 23:51:53.389 [info] Getting Manifest... ms-toolsai.jupyter
+2024-09-06 23:51:53.690 [info] Installing extension: ms-toolsai.jupyter {"productVersion":{"version":"1.92.2","date":"2024-08-15T18:27:27.910Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json","path":"/home/ser/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-06 23:51:54.548 [info] Installing extension: ms-python.debugpy {"productVersion":{"version":"1.92.2","date":"2024-08-15T18:27:27.910Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json","path":"/home/ser/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-06 23:51:54.698 [info] Getting Manifest... ms-python.python
+2024-09-06 23:51:58.286 [info] Extracted extension to file:///home/ser/.vscode-oss/extensions/ms-python.debugpy-2024.11.0-dev-linux-arm64: ms-python.debugpy
+2024-09-06 23:51:58.292 [info] Renamed to /home/ser/.vscode-oss/extensions/ms-python.debugpy-2024.11.0-dev-linux-arm64
+2024-09-06 23:51:58.306 [info] Marked extension as uninstalled ms-python.debugpy-2024.8.0-linux-arm64
+2024-09-06 23:51:58.314 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json
+2024-09-06 23:51:58.341 [info] Extracted extension to file:///home/ser/.vscode-oss/extensions/ms-toolsai.jupyter-2024.7.0-universal: ms-toolsai.jupyter
+2024-09-06 23:51:58.348 [info] Renamed to /home/ser/.vscode-oss/extensions/ms-toolsai.jupyter-2024.7.0-universal
+2024-09-06 23:51:58.371 [info] Marked extension as uninstalled ms-toolsai.jupyter-2024.6.0-universal
+2024-09-06 23:51:58.375 [info] Extension installed successfully: ms-toolsai.jupyter vscode-userdata:/home/ser/.vscode-oss/extensions/extensions.json
+2024-09-06 23:51:58.380 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ser/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22226)
+    at h (/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22357)
+    at S.toFileSystemProviderError (/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:48043)
+    at S.stat (/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38518)
+    at async c.stat (/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19793)
+    at async q.onDidFilesChange (/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:148300)

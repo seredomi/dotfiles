@@ -15,6 +15,7 @@ import XMonad.Hooks.StatusBar
 import XMonad.Hooks.StatusBar.PP
 import XMonad.Hooks.InsertPosition
 import XMonad.Util.Loggers
+import XMonad.Util.EZConfig(additionalKeys)
 
 
 import qualified XMonad.StackSet as W
@@ -32,9 +33,9 @@ myClickJustFocuses :: Bool
 myClickJustFocuses = False
 
 -- Width of the window border in pixels.
-myBorderWidth   = 1
+myBorderWidth   = 2
 
--- windows key for modmask
+-- cmd key for modmask
 myModMask       = mod4Mask
 
 -- workspace names
@@ -42,7 +43,7 @@ myWorkspaces    = ["1","2","3","4","5","6","7","8","9"]
 
 -- Border colors for unfocused and focused windows, respectively.
 myNormalBorderColor  = "#bbbbbb"
-myFocusedBorderColor = "#37474f"
+myFocusedBorderColor = "#000000"
 
 ------------------------------------------------------------------------
 -- Key bindings. Add, modify or remove key bindings here.
@@ -52,24 +53,26 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- launch a terminal
     [ ((modm,  xK_Return), spawn $ XMonad.terminal conf)
 
-    -- launch dmenu TODO: figure out why Geist Mono kerning is so fucked
-    -- would really prefer to use a monospace w/ dmenu
-    , ((modm,               xK_o     ), spawn "dmenu_run -fn \"Geist-14\" -p \"run:\" -nb \"#f5f5f5\" -nf \"#37474f\" -sb \"#fffacf\" -sf \"#37474f\"")
+    -- launch dmenu 
+    , ((modm,               xK_o     ), spawn "dmenu_run -fn \"GeistMono-18\" -p \"run:\" -nb \"#f5f5f5\" -nf \"#37474f\" -sb \"#fffacf\" -sf \"#37474f\"")
 
     -- launch firefox
     , ((modm, xK_f ), spawn "firefox")
 
     -- toggle mute
-    -- , ((modm, xK_F10 ), toggleMute	>> return ())
+    , ((0, 0x1008ff12), toggleMute	>> return ())
     -- lower volume
-    , ((modm, xK_F11 ), lowerVolume 5	>> return ())
+    , ((0, 0x1008ff11), lowerVolume 5	>> return ())
     -- raise volume
-    , ((modm, xK_F12 ), raiseVolume 5	>> return ())
+    , ((0, 0x1008ff13), raiseVolume 5	>> return ())
 
     -- lower brighness
-    , ((modm, xK_F1 ), spawn "brightnessctl set 20-")
+    , ((0, 0x1008ff03), spawn "brightnessctl set 20-")
     -- raise brighness
-    , ((modm, xK_F2 ), spawn "brightnessctl set +20")
+    , ((0, 0x1008ff02), spawn "brightnessctl set +20")
+
+    -- find my goddamn cursor!
+    , ((0, 0x1008ff1b), spawn "find-cursor --size 500 --distance 50 --wait 500 --line-width 5 --color \"#d47500\" ")
 
     -- close focused window
     , ((modm, xK_q     ), kill)

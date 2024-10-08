@@ -1,0 +1,8 @@
+$ /nix/store/4z6000zbsvbjcds342crhv7fnicqhfj1-ghc-9.6.5-with-packages/bin/ghc --make xmonad.hs -i -ilib -fforce-recomp -main-is main -v0 -outputdir /home/ser/.xmonad/build-aarch64-linux -o /home/ser/.xmonad/xmonad-aarch64-linux
+
+xmonad.hs:63:35: warning: [GHC-94817] [-Wtabs]
+    Tab character found here, and in six further locations.
+    Suggested fix: Please use spaces instead.
+   |
+63 |     , ((0, 0x1008ff12), toggleMute      >> return ())
+   |                                   ^^^^^^

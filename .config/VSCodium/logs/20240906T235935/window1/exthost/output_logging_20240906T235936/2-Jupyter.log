@@ -1,0 +1,32 @@
+VSCodium (1.92.2, undefined, desktop)
+Jupyter Extension Version: 2024.7.0.
+Python Extension Version: 2024.14.0.
+Pylance Extension not installed.
+Platform: linux (arm64).
+Workspace folder ~/school/cs345/exercises, Home = /home/ser
+23:59:41.200 [info] Telemetry level is off
+23:59:41.201 [info] Experiments are disabled, only manually opted experiments are active.
+23:59:41.384 [info] Starting Kernel (Python Path: /etc/profiles/per-u~/~/bin/python3.11, Unknown, 3.11.9) for '~/school/cs345/exercises/exercise_03_labeled_data.ipynb' (disableUI=true)
+23:59:41.455 [warn] Failed to get activated env vars for /etc/profiles/per-u~/~/bin/python3.11 in 63ms
+23:59:41.456 [warn] Failed to get activated env vars for /etc/profiles/per-u~/~/bin/python3.11 in 73ms
+23:59:41.460 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -c "import site;print("U~_BASE_VALUE");print(site.U~_BASE);print("U~_BASE_VALUE");"
+23:59:41.483 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+23:59:41.484 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -m pip list
+23:59:41.490 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-5567SnFsswp02x7K.json
+    > cwd: //home/~/school/cs345/exercises
+23:59:41.932 [info] Kernel successfully started
+23:59:41.937 [info] Process Execution: /etc/profiles/per-u~/~/bin/python3.11 /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.7.0-universal/pythonFiles/printJupyterDataDir.py
+23:59:41.950 [error] Failed to get baseUrl [Error: EINVAL: invalid argument, readlink '/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.7.0-universal/temp/scripts/8fb9a892a3353fca77ba18239bbfa63ab319fefe8d7704bdb9fc16210797a864/jupyter/nbextensions'] {
+  errno: -22,
+  code: 'EINVAL',
+  syscall: 'readlink',
+  path: '/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.7.0-universal/temp/scripts/8fb9a892a3353fca77ba18239bbfa63ab319fefe8d7704bdb9fc16210797a864/jupyter/nbextensions'
+}
+00:00:03.373 [info] Dispose Kernel '~/school/cs345/exercises/exercise_03_labeled_data.ipynb' associated with '~/school/cs345/exercises/exercise_03_labeled_data.ipynb'
+00:00:03.405 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v2-5567SnFsswp02x7K.json for pid 5727 [Canceled (FileSystemError): Canceled
+	at T._handleError (/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:8848)
+	at Object.stat (/nix/store/9nyan9hblp6j3m7p3dycs96xpac9fxiv-vscodium-1.92.2.24228/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:4959)
+	at async Uc.delete (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.7.0-universal/dist/extension.node.js:239:15722)
+	at async /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2024.7.0-universal/dist/extension.node.js:303:469] {
+  code: 'Unknown'
+}
