@@ -1,7 +1,6 @@
 # dotfiles
 
-personal config files 
+mbp 14" m2 max macos
+
 
 ## todo
-- [ ] mess with yellows in kitty config
-- [ ] fix 100% reading for xmobar
